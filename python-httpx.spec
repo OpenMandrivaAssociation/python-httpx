@@ -10,6 +10,7 @@ URL:        https://pypi.org/project/httpx
 Source0:    https://files.pythonhosted.org/packages/source/h/httpx/httpx-%{version}.tar.gz
 BuildArch:  noarch
 BuildRequires:  pkgconfig(python)
+BuildRequires:  python3dist(hatchling)
 BuildSystem:  python
 
 %description
