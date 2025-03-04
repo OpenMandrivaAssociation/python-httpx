@@ -12,6 +12,7 @@ BuildArch:  noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(hatchling)
 BuildRequires:  python3dist(hatch-fancy-pypi-readme)
+Requires:  python3dist(httpcore)
 BuildSystem:  python
 
 %description
