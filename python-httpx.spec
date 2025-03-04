@@ -20,3 +20,5 @@ async APIs, and support for both HTTP/1.1 and HTTP/2.
 
 %files
 %{_bindir}/httpx
+%{python_sitelib}/httpx-%{version}.dist-info
+%{python_sitelib}/httpx/
