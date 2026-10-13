@@ -2,14 +2,14 @@
 
 Name:       python-%{pypi_name}
 Version:    0.28.1
-Release:    3
+Release:    4
 Summary:    The next generation HTTP client
 Group:      Development/Python
 License:    BSD
 URL:        https://pypi.org/project/httpx
 Source0:    https://files.pythonhosted.org/packages/source/h/httpx/httpx-%{version}.tar.gz
 BuildArch:  noarch
-BuildRequires:  pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:  python%{pyver}dist(hatchling)
 BuildRequires:  python%{pyver}dist(hatch-fancy-pypi-readme)
 Requires:	python%{pyver}dist(httpcore)
